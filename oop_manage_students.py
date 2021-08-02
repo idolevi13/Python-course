@@ -129,8 +129,6 @@ class Faculty:
 #
 # E = Faculty('engineering', [A, B, C, D])
 # print(E)
-
-
 ##################################################################################
 # Question 2
 ##################################################################################
@@ -210,3 +208,31 @@ class PrintShop:
         for key in printshop_dic.keys():
             to_print += key + " : " + str(printshop_dic[key]) + " orders\n"
         return headline + to_print + "Revenues: " + str(self.revenues)
+  
+##### Use this code to test your implementation:	
+##poster1 = PosterOrder ("Dvir", 1, (1, 1))
+##print (poster1)
+##print (poster1.calc_cost())
+##
+##paper_prices = {"A4 80gr": 3, "A5 100gr": 5}
+##letter1 = LetterOrder ("Danielle", 1, "A4 80gr", paper_prices)
+##print (letter1)
+##print (letter1.calc_cost())
+##letter2 = LetterOrder ("Roy", 1, "A5 100gr", paper_prices)
+##print (letter2)
+##print (letter2.calc_cost())
+##letter3 = LetterOrder ("Roy", 5, "A5 100gr", paper_prices)
+##print (letter3)
+##print (letter3.calc_cost())
+##
+##print_shop = PrintShop()
+##print_shop.add_order(poster1)
+##print_shop.add_order(letter1)
+##print_shop.add_order(letter2)
+##print_shop.add_order(letter3)
+##
+##print (print_shop)
+##
+##print_shop.print_next_order() #prints poster1 whose cost is 30
+##print (print_shop)
+    
